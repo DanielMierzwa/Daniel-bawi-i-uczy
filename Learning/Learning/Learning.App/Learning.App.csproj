@@ -75,6 +75,9 @@
 	  <MauiXaml Update="Views\MaterialSavePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\NoteEditorPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\SaveFlashcard.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

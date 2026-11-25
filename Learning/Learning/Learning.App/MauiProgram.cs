@@ -44,6 +44,8 @@ namespace Learning.App
             builder.Services.AddSingleton<LoginPageViewModel>();
             builder.Services.AddSingleton<RegisterPage>();
             builder.Services.AddSingleton<RegisterPageViewModel>();
+            builder.Services.AddTransient<NoteEditorPage>();
+            builder.Services.AddTransient<NoteEditorViewModel>();
             builder.Services.AddSingleton<AuthService>();
 
             var app = builder.Build();
