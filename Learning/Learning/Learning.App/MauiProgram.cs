@@ -35,6 +35,9 @@ namespace Learning.App
             builder.Services.AddSingleton<FlashcardEditorPage>();
             builder.Services.AddSingleton<SaveFlashcardViewModel>();
             builder.Services.AddSingleton<SaveFlashcard>();
+            builder.Services.AddSingleton<MaterialSaveViewModel>();
+            builder.Services.AddSingleton<MaterialSavePage>();
+            builder.Services.AddSingleton<QuizEditorViewModel>();
             builder.Services.AddSingleton<QuizEditorPage>();
             builder.Services.AddSingleton<QuizSavePage>();
             builder.Services.AddSingleton<LoginPage>();
