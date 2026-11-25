@@ -29,7 +29,7 @@
                     Command="{Binding MyMaterialsCommand}" IsVisible="{Binding MaterialsVisible}"/>
             <Button Grid.Column="0" Text="Utwórz Konto" 
                     Command="{Binding RegisterCommand}"  IsVisible="{Binding UtworzKontoVisible}"/>
-            <Button Grid.Column="2" Text="Zaloguj Konto" 
+            <Button Grid.Column="2" Text="Zaloguj się" 
                     Command="{Binding LogujCommand}"  IsVisible="{Binding UtworzKontoVisible}"/>
             <Button Grid.Column="2" Text="Konto" FontSize="12" Padding="6,10"
                    Command="{Binding AccountCommand}"  IsVisible="{Binding KontoVisible}"/>
